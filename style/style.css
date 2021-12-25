@@ -1,0 +1,362 @@
+* {
+  box-sizing: border-box;
+  /* font-family: 'Roboto', sans-serif; */
+  font-weight: normal;
+  font-family: 'Crimson Text', serif;
+}
+
+/* reset */
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+.header_content{
+  float: left;
+  width: 100%;
+  height: 100vh;
+}
+
+
+header img{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  padding-top: 105px;
+}
+
+}
+#flex-container{
+  display: flex;
+  flex-direction: column;
+}
+
+/* What I Do section: */
+
+/* Create two equal columns that floats next to each other */
+
+.what_i_do_column {
+  float: left;
+  width: 50%;
+  max-height: 100%;
+  /* padding: 10px; */
+  height: 80vh;
+
+}
+.what_i_do_column2 {
+  float: left;
+  width: 50%;
+  max-height: 100%;
+  padding: 10px;
+  height: 80vh;
+}
+
+
+/* Clear floats after the columns */
+.what_i_do_row:after {
+  content: "";
+  display: flex;
+  clear: both;
+  background-color: white;
+  height: 100%;
+
+}
+.what_i_do_column2 img{
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 50%;
+  margin: 0 auto;
+}
+.what_i_do_header{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  width: 100%;
+}
+.designer_bold{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+.portfolio_header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+.social_header{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+.more_details_header{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+.more_details_header_bold{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+.cont
+/* About Me Section */
+/* Create two equal columns that floats next to each other */
+.about_me_row:after {
+  ccontent: "";
+  display: flex;
+  clear: both;
+  background-color: white;
+  height: 90vh;
+}
+
+.about_me_column {
+  float: left;
+  width: 50%;
+  /* max-height: 100%; */
+  padding: 10px;
+  height: 100vh;
+  /* float: left;
+  width: 48%;
+  height: 100vh; */
+  /* padding: 10px; */
+  /* height: inherit; */
+  background-color: #fafafa;
+  /* margin: 0 auto; */
+}
+.about_me_column2 {
+  float: left;
+  width: 50%;
+  max-height: 100%;
+  /* padding: 10px; */
+  padding-right: 60px;
+  height: 100vh;
+  background-color: #fafafa;
+}
+.curlybracketsvg{
+  text-align: center;
+  padding-top: 40%;
+}
+.about_me_header{
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+.DEV_BOLD{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+/* Clear floats after the columns */
+ .portfolio{
+
+  background-color: #1C1F28;
+  color: white;
+  display: flex;
+  width:100%;
+  height: auto;
+  /* border:  6px solid red; */
+  flex-direction: column;
+}
+
+/*
+.portfolio:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 100vh;
+  background-color: white;
+} */
+
+.portfolio_content {
+  background-color: #1C1F28;
+  /* float: center; */
+  margin: 100px;
+  width: 90%;
+  height: auto;
+  color: white;
+  text-align: center;
+  /* padding-top: 200px; */
+  /* padding-top: 150px; */
+  border: 1px solid white;
+  /* border-style:solid;
+  border-color: white; */
+  /* border-bottom-color: white; */
+  /* border: 5em; */
+}
+
+
+
+
+
+.social_row:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 100%;
+}
+.social_content_column {
+  float: left;
+  width: 50%;
+  height: 100vh;
+  padding: 10px;
+  /* height: 300px; */
+  background-color: #27BDAE;
+  color: white;
+}
+i {
+  color: white;
+}
+a {
+  color: white;
+}
+
+.contact:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 100%;
+
+  }
+.contact_content {
+  float: left;
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  /* height: 300px; */
+  background-color: #1C1F28;
+  text-align: center;
+  color: white;
+  }
+  input{
+    border-top: 1px white;
+    background: transparent;
+    color: white;
+  }
+.name_field{
+  width: 100%;
+}
+.phone_field{
+  width: 50%;
+}
+.email_field{
+  width: 50%
+}
+.text_box{
+  background: transparent;
+  color: white;
+  width: 100%;
+}
+
+/* About Me */
+
+
+
+/* Portfolio */
+
+/* Contact */
+.contact{
+  background-color: #1C1F28;
+
+}
+.dribble_link{
+  width: 10em;  height: 2em;
+}
+.form-submit-button{
+  background-color: #1C1F28;
+}
+
+button{
+  color: white;
+  background-color: #1C1F28;
+  float: right;
+}
+/* border-style: solid;
+border-color: blue; */
+
+/*small phone, iPhone 5 and up */
+@media only screen and (min-width: 320px){
+/* What I Do Page */
+.what_i_do_column{
+  width: 100%;
+  padding-top: 60px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 15px;
+  }
+.what_i_do_column2 {
+  display: none;
+  }
+}
+/* About Me Page */
+.about_me_column {
+display: none;
+}
+.about_me_column2 {
+    float: left;
+    width: 100%;
+    padding-top: 20%;
+    padding-left: 10px;
+  }
+  .portfolio{
+
+   background-color: #1C1F28;
+   color: white;
+   display: flex;
+   width:100%;
+   height: auto;
+
+   /* flex-direction: row; */
+ }
+ .portfolio_box{
+   width: 100%;
+   display: block;
+   padding: -60px;
+ }
+  .portfolio_content {
+    /* background-color: #1C1F28; */
+    /* float: center;
+    display: block; */
+    /* margin: 30px; */
+    /* padding-right: 50px; */
+    width: 60vw;
+    /* height: auto; */
+    color: white;
+    margin-left: 20%;
+    /* text-align: center; */
+/* Small devices (tablets, 768px and up) */
+}
+
+@media only screen and (min-width: 768px){
+  * {
+    font-size: 25px;
+  }
+  .what_i_do_column_img{
+  display:block;
+}
+.what_i_do_column {
+  /* float: left; */
+  width: 45%;
+}
+.what_i_do_column2 {
+  display: block;
+  width: 50%;
+}
+/* About Me Page */
+.about_me_column {
+display: block;
+}
+.about_me_column2 {
+    float: left;
+    width: 50%;
+    padding-top: 20%;
+  }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
